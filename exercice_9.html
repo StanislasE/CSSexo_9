@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 9</title>
+    <link rel="stylesheet" href="ASSETS/Exercice_9.css" type="text/css" />
+</head>
+
+<body>
+    <!-- Un commentaire -->
+    <form action="" method="GET">
+        <div>
+        <fieldset id= div1><legend id= div1>Votre identité</legend>
+            <div><label for="GET-name">1. Nom :
+                <input id="GET-name" type="text" name="Nom" /></label></div>
+            <div><label for="GET-surname">2. Prénom :
+                <input id="GET-surname" type="text" surname="Prénom" /></label></div>
+            <div><label for="GET-mail">3. Adresse Mail :
+                <input id="GET-mail" type="text" mail="Adresse Mail" /></label></div>
+        </fieldset>
+        </div>
+        <div>
+        <fieldset id= div2><legend id= div2>Adresse de livraison</legend>
+            <div><label for="GET-adress">1. Adresse :
+                <input id="GET-adress" type="txt" adress="Adresse" /></label></div>
+            <div><label for="GET-cp">2. Code Postal :</label>
+                <input id="GET-cp" type="text" cp="Code Postal"></div>
+            <div><label for="GET-city">3. Ville :
+                <input id="GET-city" type="text" city="Ville"></label></div>
+        </fieldset>
+        </div>
+        <div>
+            <fieldset id= div3><legend id= div3>Informations de règlement</legend>
+            <legend>Type de carte bancaire</legend>
+                <ul>
+                    <div><li><label for="Titre_1">
+                            <input type="radio" id="Titre_1" name="Titre_1">Visa</label></li>
+                    <li><label for="Titre_2">
+                            <input type="radio" id="Titre_2" name="Titre_2">MasterCard</label></li></div>
+                </ul>
+                <div><label for="Ncb">1. Numéro carte bancaire :
+                    <input id="Ncb" type="text" Ncb="Numéro de carte bancaire"></label></div>
+                <div><label for="Crypto">2. Code de sécurité :
+                    <input id="Crypto" type="text" Crypto="Code de sécurité" /></label></div>
+                <div><label for="Tname">3. Nom de titulaire :
+                    <input id="Tname" type="text" Tname="Nom de titulaire" /></label></div>      
+            </fieldset>
+        </div>
+        <input type="submit" value="J'achète"/>
+    </form>
+</body>
+</html>
